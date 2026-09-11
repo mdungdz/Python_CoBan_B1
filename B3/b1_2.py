@@ -9,9 +9,9 @@ pop_ra = ten_sv.pop()          # xoa va lay ra phan tu cuoi
 print(ten_sv, "- da xoa:", pop_ra)
 
 ten_sv.sort()                  # sap xep tang dan (theo bang chu cai or so)
-print(ten_sv)
+print("sap xep tang dang: ", ten_sv)
 ten_sv.reverse()               # dao nguoc thu tu hien tai
-print(ten_sv)
+print("sap xep dao nguoc: ", ten_sv)
 
 ten_sv.extend(["Giang", "Hoa"])  # noi them mot list khac vao
 print(ten_sv)
